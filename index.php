@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html xmlns:og="http://opengraphprotocol.org/schema/" xmlns:fb="http://www.facebook.com/2008/fbml" itemscope itemtype="http://schema.org/Thing" lang="fr-FR">
+<html lang="fr-FR">
 
 <?php
 include('header.php');
@@ -35,6 +35,13 @@ include('header.php');
 <?php
 include('footer.php');
 ?>
+
+
+<script>
+    $(function() {
+        $('li#menu-accueil').addClass('active');
+    })
+</script>
 
 
 
