@@ -1,0 +1,246 @@
+
+/*SITE.CSS*/
+article, aside, details, figcaption, figure, footer, header, hgroup, nav, section {
+    display: block;
+}
+
+#header > .wrapper {
+    position: relative;
+}
+
+.clear {
+    zoom: 1;
+}
+
+#header > .wrapper .primary-image.default {
+    background-image: url("http://static.squarespace.com/static/508475bee4b0f4598aa96c7c/t/5182d0e6e4b065e39b3b546a/1367527654606/devlin-header.jpg");
+    background-image: none;
+    background-position: top center;
+    background-size: cover;
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+}
+
+#header > .wrapper .primary-image {
+    position: absolute;
+    top: -1px;
+    right: -1px;
+    bottom: -1px;
+    left: -1px;
+    z-index: -1;
+    background-color: #333;
+}
+
+.primary-nav {
+    background-color: #131313;
+}
+
+.primary-nav .nav {
+    font-family: "Varela";
+    font-size: 12px;
+    font-weight: normal;
+    letter-spacing: 2px;
+    line-height: 5em;
+    text-transform: uppercase;
+    font-family: "futura-pt";
+    font-size: 18px;
+    line-height: 4em;
+    text-transform: none;
+    letter-spacing: 0px;
+    text-align: center;
+    font-weight: 700;
+    font-style: normal;
+    margin: 0 auto;
+    padding: 0 50px;
+    max-width: 1120px;
+}
+
+.primary-nav .nav li {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+.primary-nav .folder-wrapper {
+    cursor: pointer;
+}
+
+.primary-nav .nav li a {
+    color: #666;
+    font-weight: 700;
+    cursor: default;
+
+}
+
+.primary-nav .folder-links-wrapper {
+    -moz-transition: max-height .1s ease-in;
+    -o-transition: max-height .1s ease-in;
+    -webkit-transition: max-height .1s ease-in;
+    transition: max-height .1s ease-in;
+    top: 0;
+    overflow: hidden;
+    position: absolute;
+    max-height: 0;
+    padding: 0 2em;
+    margin: 4em 0 0 -2em;
+    background-color: #131313;
+    z-index: 9999;
+}
+
+.primary-nav .folder-links-wrapper li:first-child {
+    padding-top: 1em;
+}
+
+.primary-nav .folder-links-wrapper li {
+    display: block;
+    text-align: left;
+    line-height: 1em;
+    margin: 0;
+    padding-bottom: 2em;
+}
+
+.primary-nav .nav li a.active {
+    color: #ccc;
+}
+
+.primary-nav .nav li a:hover {
+    /*color: #ccc;*/
+}
+
+#header #logo.logo-image {
+    position: relative;
+}
+
+#header #logo {
+    display: block;
+    padding: 34px 50px;
+    margin: 0 auto;
+    max-width: 1120px;
+}
+
+#header #logo h1.site-title {
+    margin-bottom: 0;
+    text-align: center;
+}
+
+h1 {
+    font-family: "Droid Serif", georgia, serif;
+    font-weight: normal;
+    font-family: "futura-pt";
+    font-size: 24px;
+    line-height: 1.25em;
+    text-transform: none;
+    letter-spacing: 0px;
+    font-weight: 700;
+    font-style: normal;
+    color: #555;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0 0 .5em;
+}
+
+h1, :-webkit-any(article,aside,nav,section) h1, :-webkit-any(article,aside,nav,section) :-webkit-any(article,aside,nav,section) h1 {
+    -webkit-margin-before: 0 !important;
+}
+
+#header #logo .site-title-border {
+    height: 10px;
+}
+
+#header #logo.logo-image img {
+    height: 150px;
+    float: left;
+    position: absolute;
+    top: 10px;
+    left: 20px;
+}
+
+#header #logo.logo-image img {
+    height: 75px;
+    line-height: 0;
+}
+
+img {
+    border: 0;
+    -ms-interpolation-mode: bicubic;
+    vertical-align: middle;
+}
+
+#header #logo .site-tagline .spacer {
+    height: 5px;
+}
+
+#header #logo .site-tagline h2 {
+    font-family: georgia, serif;
+    font-size: 18px;
+    font-weight: normal;
+    line-height: 1em;
+    font-family: "futura-pt-condensed";
+    font-size: 36px;
+    line-height: 1.5em;
+    text-transform: none;
+    letter-spacing: 0px;
+    text-align: center;
+    font-weight: 700;
+    font-style: normal;
+    color: #f4f4f3;
+    margin-bottom: 0;
+}
+
+h2 {
+    font-family: "Droid Serif", georgia, serif;
+    font-weight: normal;
+    font-family: "futura-pt";
+    font-size: 21px;
+    line-height: 1.25em;
+    text-transform: none;
+    letter-spacing: 0px;
+    font-weight: 400;
+    font-style: normal;
+    color: #555;
+}
+
+#footer {
+    clear: both;
+    background-color: black;
+    height: 150px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+body
+{
+    margin: 0;
+}
+
+a
+{
+    text-decoration: none;
+}
+
+#site {
+    background-color: #fff;
+    /* padding: 60px 0; */
+}
+
+.wrap
+{
+    width: 1220px;
+    margin: auto;
+}
+
+.construction {
+    text-align: center;
+    background-color: #eeeeee;
+}
