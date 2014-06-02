@@ -5,7 +5,7 @@
 
     <base href="">
     <meta charset="utf-8" />
-    <title>Simplon-village</title>
+    <title>Première école numérique au vert - Simplon Village</title>
     <meta name="description" content="Fabrique de codeurs entrepreneurs à La loupe #FrenchTech" />
     <link rel="shortcut icon" type="image/x-icon" href="favicon.ico"/>
 
@@ -19,6 +19,13 @@
         // very simple to use!
         $(document).ready(function() {
             $('.js-activated').dropdownHover().dropdown();
+
+            $('li#menu-ecosysteme').click(function(){
+                window.location.href = "http://www.simplon-village.com/ecosysteme.php";
+            });
+            $('li#menu-actualites').click(function(){
+                window.location.href = "http://www.simplon-village.com/actualites.php";
+            });
         });
     </script>
 
@@ -63,12 +70,12 @@
         <div class="primary-image default"></div>
 
         <div class="navbar navbar-inverse" role="navigation">
-            <div class="container">
+            <div class="wrap">
                 <div class="navbar-collapse collapse">
                     <ul class="nav navbar-nav">
-                        <li id="menu-accueil"><a href="index.php">Accueil</a></li>
-                        <li id="menu-pedagogie"><a href="pedagogie.php">Pédagogie</a></li>
-                        <li class="dropdown" id="menu-ecosysteme">
+                        <li class="menu" id="menu-accueil"><a href="index.php">Accueil</a></li>
+                        <li class="menu" id="menu-pedagogie"><a href="pedagogie.php">Pédagogie</a></li>
+                        <li class="menu" class="dropdown" id="menu-ecosysteme">
                             <a href="ecosysteme.php" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown">Ecosystème</a>
                             <ul class="dropdown-menu">
                                 <li><a href="ecosysteme.php#comite">Comité de pilotage</a></li>
@@ -76,16 +83,11 @@
                                 <li><a href="ecosysteme.php#mentors">Mentors</a></li>
                             </ul>
                         </li>
-                        <li class="dropdown" id="menu-actualites">
-                            <a href="actualites.php" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown">Actualités</a>
-                            <ul class="dropdown-menu">
-                                <li><a href="actualites.php">Blog</a></li>
-                            </ul>
-                        </li>
-                        <li id="menu-candidatez"><a href="candidatez.php">Candidatez</a></li>
-                        <li id="menu-partenaires"><a href="partenaires.php">Devenez partenaire</a></li>
-                        <li id="menu-media"><a href="media.php">Média</a></li>
-                        <li id="menu-contact"><a href="contact.php">Contact</a></li>
+                        <li class="menu" id="menu-actualites"><a href="actualites.php">Actualités</a></li>
+                        <li class="menu" id="menu-candidatez"><a href="candidatez.php">Candidatez</a></li>
+                        <li class="menu" id="menu-partenaires"><a href="partenaires.php">Devenez partenaire</a></li>
+                        <li class="menu" id="menu-media"><a href="media.php">Média</a></li>
+                        <li class="menu" id="menu-contact"><a href="mailto:simplon-village@gmail.com">Contact</a></li>
                     </ul>
                 </div><!--/.nav-collapse -->
             </div>
@@ -96,7 +98,7 @@
 
             <h1 class="site-title" data-content-field="site-title">
                 <a href="index.php">
-                    <img src="images/logo.png" style="width: 250px; height: inherit;" alt="Simplon.co" />
+                    <img src="images/logo.png" style="width: 160px; height: inherit;" alt="Simplon.co" />
                 </a>
             </h1>
 

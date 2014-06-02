@@ -8,7 +8,7 @@ include('header.php');
 <div id="site" style="padding-top: 100px;">
     <div class="wrap clear">
 
-        <h1>Candidatez !</h1>
+<!--        <h1>Candidatez !</h1>-->
         <article>
             <p><i>Vous voulez apprendre à faire des applications web, à créer une startup numérique ? Vous avez un
                 projet et le code vous permettrait de le réaliser ? Développez un projet entrepreneurial numérique

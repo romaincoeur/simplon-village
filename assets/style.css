@@ -13,8 +13,6 @@ article, aside, details, figcaption, figure, footer, header, hgroup, nav, sectio
 }
 
 #header > .wrapper .primary-image.default {
-    background-image: url("http://static.squarespace.com/static/508475bee4b0f4598aa96c7c/t/5182d0e6e4b065e39b3b546a/1367527654606/devlin-header.jpg");
-    background-image: none;
     background-position: top center;
     background-size: cover;
     background-attachment: scroll;
@@ -51,7 +49,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, nav, sectio
 h1 {
     font-family: "Droid Serif", georgia, serif;
     font-weight: normal;
-    font-family: "futura-pt";
+    font-family: "calibri";
     font-size: 24px;
     line-height: 1.25em;
     text-transform: none;
@@ -84,7 +82,7 @@ h1, :-webkit-any(article,aside,nav,section) h1, :-webkit-any(article,aside,nav,s
 #header #logo.logo-image img {
     height: 75px;
     line-height: 0;
-    margin-top: 30px;
+    margin-top: 25px;
 }
 
 img {
@@ -103,7 +101,7 @@ img {
     font-weight: normal;
     line-height: 1em;
     font-family: 'Roboto Condensed', sans-serif;
-    font-size: 36px;
+    font-size: 35px;
     line-height: 1.5em;
     text-transform: none;
     letter-spacing: 0px;
@@ -117,7 +115,7 @@ img {
 h2 {
     font-family: "Droid Serif", georgia, serif;
     font-weight: normal;
-    font-family: "futura-pt";
+    font-family: "Calibri";
     font-size: 21px;
     line-height: 1.25em;
     text-transform: none;
@@ -129,8 +127,8 @@ h2 {
 
 #footer {
     clear: both;
-    background-color: black;
-    height: 150px;
+    background-color: #888888;
+    color: #ffffff;
 }
 
 
@@ -163,7 +161,7 @@ a
 
 .wrap
 {
-    width: 1220px;
+    width: 1000px;
     margin: auto;
 }
 
@@ -176,7 +174,7 @@ a
 {
     font-size: 18px;
     font-weight: bold;
-    font-family: "futura-pt";
+    font-family: "Calibri";
     background-color: #131313 !important;
     border: none !important;
     margin-bottom: 0 !important;
@@ -189,5 +187,30 @@ a
 
 article
 {
-    padding: 20px 10px;
+    padding: 40px 0 10px 0;
+}
+
+p
+{
+    margin-bottom: 40px !important;
+}
+
+.navbar-inverse .navbar-nav > li.menu > a
+{
+    color: #666;
+}
+
+.navbar-inverse .navbar-nav > li.menu > a:hover
+{
+    color: #ccc;
+}
+
+.active a
+{
+    color: #ccc !important;
+}
+
+.navbar-nav > li > .dropdown-menu
+{
+    background-color: #131313;
 }

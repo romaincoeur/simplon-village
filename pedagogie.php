@@ -8,7 +8,7 @@ include('header.php');
 <div id="site" style="padding-top: 100px;">
     <div class="wrap clear">
 
-        <h1>Pédagogie</h1>
+<!--        <h1>Pédagogie</h1>-->
         <article>
             <p>Notre défi est de transformer en 6 mois les débutants en programmation en personnes capables de
                 réaliser des sites et des applications web pour leurs propres projets entrepreneuriaux et pour les

@@ -8,7 +8,7 @@ include('header.php');
 <div id="site" style="padding-top: 100px;">
     <div class="wrap clear">
 
-        <h1>Actualités</h1>
+<!--        <h1>Actualités</h1>-->
         <article>
             <p><b>« LA JOURNEE DU 28 » - participez à la 1 e Journée du numérique Portes Ouvertes à La Loupe !</b></p>
             <p>Le 28 juin 2014, de 10h à 18h, l’école numérique Simplon Village, en partenariat avec la

@@ -6,8 +6,8 @@ include('header.php');
 ?>
 
 <div id="site">
-    <img src="images/paysage_st_victor_de_buthon_long_v3.jpg" alt="paysage" style="width: 100%;">
     <div class="wrap clear">
+    <img src="images/paysage_st_victor_de_buthon_long_v3.jpg" alt="paysage" style="width: 100%;">
 
         <article>
             <p>Installée au cœur du Parc naturel régional du Perche, l’école numérique Simplon Village propose <b>une
