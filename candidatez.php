@@ -44,6 +44,7 @@ include('header.php');
             <p>Les candidats retenus sur dossiers seront sélectionnés à la suite d’un entretien et d’une journée de
                 mise en situation (une journée d’apprentissage de la programmation à l’école avant le début de la
                 session).</p>
+            <p>Vous pouvez aussi déposer votre candidature directement sur <a href="formulaire_inscription.php">le site de simplon-village</a></p>
         </article>
     </div>
 </div>
