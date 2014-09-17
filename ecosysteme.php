@@ -27,7 +27,7 @@ include('header.php');
                 plusieurs élèves de l’école qu’ils rencontrent plusieurs fois au cours de leur scolarité, notamment à
                 leur propre lieu de travail. Le rôle des mentors est de faire découvrir aux élèves leur métier et de les
                 guider dans l’acquisition des codes et des savoir-être du monde professionnel.</p>
-            <p>Philippe Bonamy</p>
+            
             <p>Devenez mentor ! Ecrivez-nous : <a href="mailto:simplon.village@gmail.com">simplon.village@gmail.com</a></p>
         </article>
     </div>

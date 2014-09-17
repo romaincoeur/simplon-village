@@ -15,7 +15,7 @@ include('header.php');
                 <li>Parrainez ou co-organisez avec nous un évènement (conférence, atelier, hackaton...)</li>
                 <li>Faites un don en nature ou donnez de votre temps et devenez mentor</li>
             </ul>
-            <p>Contactez-nous à <a href="mailto:simplon-village@gmail.com">simplon-village@gmail.com</a></p>
+            <p>Contactez-nous à <a href="mailto:simplon.village@gmail.com">simplon.village@gmail.com</a></p>
             <img src="images/Logos_partenaires.jpg" alt="logos partenaires" style="width: 300px;">
         </article>
     </div>

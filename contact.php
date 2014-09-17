@@ -9,7 +9,7 @@ include('header.php');
     <div class="wrap clear">
         <h1>Contact</h1>
         <article>
-            <p><a href="mailto:simplon-village@gmail.com"></a>simplon-village@gmail.com</p>
+            <p><a href="mailto:simplon.village@gmail.com"></a>simplon.village@gmail.com</p>
         </article>
     </div>
 </div>

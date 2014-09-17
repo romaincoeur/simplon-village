@@ -10,6 +10,8 @@ include('header.php');
 
 <!--        <h1>Candidatez !</h1>-->
         <article>
+            <h3 style="margin-bottom: 40px;">Les inscriptions pour la première session 2014/2015 sont terminées. Les inscriptions pour la deuxième session (septembre 2015 - février 2016) seront
+                ouvertes en janvier 2015. Suivez-nous sur <a href="https://www.facebook.com/simplonvillage">Facebook</a> et <a href="https://twitter.com/SimplonVillage">Twitter</a> !</h3>
             <p><i>Vous voulez apprendre à faire des applications web, à créer une startup numérique ? Vous avez un
                 projet et le code vous permettrait de le réaliser ? Développez un projet entrepreneurial numérique
                 en apprenant la programmation par la pratique dans le cadre d’une formation intensive.</i></p>
@@ -44,7 +46,6 @@ include('header.php');
             <p>Les candidats retenus sur dossiers seront sélectionnés à la suite d’un entretien et d’une journée de
                 mise en situation (une journée d’apprentissage de la programmation à l’école avant le début de la
                 session).</p>
-            <p>Vous pouvez aussi déposer votre candidature directement sur <a href="formulaire_inscription.php">le site de simplon-village</a></p>
         </article>
     </div>
 </div>

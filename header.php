@@ -1,6 +1,5 @@
 
 
-
 <head>
 
     <base href="">
@@ -87,7 +86,7 @@
                         <li class="menu" id="menu-candidatez"><a href="candidatez.php">Candidatez</a></li>
                         <li class="menu" id="menu-partenaires"><a href="partenaires.php">Devenez partenaire</a></li>
                         <li class="menu" id="menu-media"><a href="media.php">Média</a></li>
-                        <li class="menu" id="menu-contact"><a href="mailto:simplon-village@gmail.com">Contact</a></li>
+                        <li class="menu" id="menu-contact"><a href="mailto:simplon.village@gmail.com">Contact</a></li>
                     </ul>
                 </div><!--/.nav-collapse -->
             </div>
